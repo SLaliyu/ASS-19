@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+h1{
+    text-align: center;
+}
+
+div .red{
+    border: none;
+    
+}
+button{
+    color: black;
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 15px;
+    border-radius: 50px;
+}
+button:nth-child(1){
+    color: green;
+    border-color: green;
+}
+button:nth-child(1):hover{
+    background-color: green;
+    color: white;
+}
+button:nth-child(10){
+    color: green;
+    border-color: green;
+}
+button:nth-child(10):hover{
+    background-color: green;
+    color: white;
+}
+
+button:nth-child(4){
+    background-color: rgb(1, 78, 1);
+}
+
+button:hover:focus{
+    background-color: green;
+}
